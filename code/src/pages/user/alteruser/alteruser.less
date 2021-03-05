@@ -1,0 +1,40 @@
+.altermsg {
+    padding: 0 30px;
+    display: grid;
+    grid-template-rows: repeat(5, 50px);
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+
+    label {
+        font-size: 1.2em;
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+
+    input {
+        grid-column-start: 1;
+        grid-column-end: 4;
+        height: 40px;
+        padding-left: 24px;
+        border: none;
+        border-bottom: 1px solid red;
+        background-color: #fff;
+    }
+
+    .alter {
+        width: 80px;
+        height: 40px;
+        line-height: 40px;
+        margin-left: 40px;
+        margin-top: 20px;
+    }
+
+    .cancel {
+        width: 80px;
+        height: 40px;
+        line-height: 40px;
+        margin-left: 100px;
+        margin-top: 20px;
+    }
+}

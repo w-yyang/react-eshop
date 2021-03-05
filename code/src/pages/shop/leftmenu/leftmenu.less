@@ -1,0 +1,29 @@
+.my-drawer {
+    position: relative;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+    height: 400px;
+
+    .am-drawer-sidebar {
+        margin-top: 45px;
+        position: fixed;
+        background-color: #fff;
+        overflow: scroll;
+        -webkit-overflow-scrolling: touch;
+        height: calc(100% - 50px - 45px);
+
+        .am-list {
+            width: 100px;
+            padding: 0;
+            height: 100%;
+        }
+    }
+
+    .am-drawer-content {
+        margin-top: -42px;
+    }
+}
+
+.active {
+    background-color: powderblue;
+}
